@@ -6,13 +6,13 @@
 /*   By: acuevas <acuevas@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/22 18:13:02 by acuevas           #+#    #+#             */
-/*   Updated: 2026/09/22 19:35:29 by acuevas          ###   ########.fr       */
+/*   Updated: 2026/09/22 21:16:20 by acuevas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_sqrt(int nb)
 {
-	long	i;
+	int	i;
 
 	if (nb < 0)
 		return (0);
