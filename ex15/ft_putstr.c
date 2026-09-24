@@ -6,9 +6,11 @@
 /*   By: acuevas <acuevas@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/22 18:15:09 by acuevas           #+#    #+#             */
-/*   Updated: 2026/09/22 18:16:43 by acuevas          ###   ########.fr       */
+/*   Updated: 2026/09/24 15:06:05 by acuevas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+void	ft_putchar(char c);
 
 void	ft_putstr(char *str)
 {
@@ -17,7 +19,7 @@ void	ft_putstr(char *str)
 	i = 0;
 	while (str[i] != '\0')
 	{
-		write(1, &str[i], 1);
+		ft_putchar(str[i]);
 		i++;
 	}
 }
