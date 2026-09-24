@@ -6,7 +6,7 @@
 /*   By: acuevas <acuevas@student.42madrid.com      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/22 18:34:16 by acuevas           #+#    #+#             */
-/*   Updated: 2026/09/22 18:39:50 by acuevas          ###   ########.fr       */
+/*   Updated: 2026/09/24 14:07:37 by acuevas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,7 @@ void	ft_sort_params(int argc, char **argv)
 	ft_print_args(argc, argv);
 }
 
-int	main(int argc, **argv)
+int	main(int argc, char **argv)
 {
 	if (argc > 1)
 		ft_sort_params(argc, argv);
